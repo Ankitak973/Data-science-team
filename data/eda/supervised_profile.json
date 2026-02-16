@@ -1,0 +1,96 @@
+{
+  "target_dtype": "bool",
+  "missing_pct": 0.0,
+  "unique": 2,
+  "class_distribution": {
+    "false": 3935,
+    "true": 946
+  },
+  "imbalance_ratio": 4.159619450317125,
+  "statistical_tests": {
+    "gender_male_chi2": {
+      "p_value": 0.6714434263668467,
+      "significant": "False"
+    },
+    "gender_other_chi2": {
+      "p_value": 0.7166677514028257,
+      "significant": "False"
+    },
+    "country_region_brazil_chi2": {
+      "p_value": 0.43517725832515297,
+      "significant": "False"
+    },
+    "country_region_canada_chi2": {
+      "p_value": 0.46013996166528615,
+      "significant": "False"
+    },
+    "country_region_china_chi2": {
+      "p_value": 0.14863725297838745,
+      "significant": "False"
+    },
+    "country_region_germany_chi2": {
+      "p_value": 0.8342516750429633,
+      "significant": "False"
+    },
+    "country_region_india_chi2": {
+      "p_value": 0.6756989925777854,
+      "significant": "False"
+    },
+    "country_region_pakistan_chi2": {
+      "p_value": 0.6034073584169308,
+      "significant": "False"
+    },
+    "country_region_russia_chi2": {
+      "p_value": 0.05216668290710292,
+      "significant": "False"
+    },
+    "country_region_uk_chi2": {
+      "p_value": 0.9832758781126979,
+      "significant": "False"
+    },
+    "country_region_usa_chi2": {
+      "p_value": 0.44543394681565907,
+      "significant": "False"
+    },
+    "cancer_type_cervical_chi2": {
+      "p_value": 0.4174097522582908,
+      "significant": "False"
+    },
+    "cancer_type_colon_chi2": {
+      "p_value": 0.32048682300679504,
+      "significant": "False"
+    },
+    "cancer_type_leukemia_chi2": {
+      "p_value": 0.7592593479476704,
+      "significant": "False"
+    },
+    "cancer_type_liver_chi2": {
+      "p_value": 1.0,
+      "significant": "False"
+    },
+    "cancer_type_lung_chi2": {
+      "p_value": 0.7231450690924772,
+      "significant": "False"
+    },
+    "cancer_type_prostate_chi2": {
+      "p_value": 0.7793962825615458,
+      "significant": "False"
+    },
+    "cancer_type_skin_chi2": {
+      "p_value": 0.27391333654952904,
+      "significant": "False"
+    },
+    "cancer_stage_stage i_chi2": {
+      "p_value": 5.336595136161165e-65,
+      "significant": "True"
+    },
+    "cancer_stage_stage ii_chi2": {
+      "p_value": 4.6099131445945385e-66,
+      "significant": "True"
+    },
+    "cancer_stage_stage iii_chi2": {
+      "p_value": 1.7268628714289858e-65,
+      "significant": "True"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "pearson": {
+    "age": {
+      "age": 1.0,
+      "genetic_risk": 0.025,
+      "air_pollution": 0.022,
+      "alcohol_use": -0.001,
+      "smoking": 0.03,
+      "obesity_level": -0.011,
+      "treatment_cost_usd": -0.001,
+      "survival_years": -0.007,
+      "target_severity_score": 0.031
+    },
+    "genetic_risk": {
+      "age": 0.025,
+      "genetic_risk": 1.0,
+      "air_pollution": -0.01,
+      "alcohol_use": -0.009,
+      "smoking": -0.006,
+      "obesity_level": 0.004,
+      "treatment_cost_usd": -0.002,
+      "survival_years": -0.008,
+      "target_severity_score": 0.471
+    },
+    "air_pollution": {
+      "age": 0.022,
+      "genetic_risk": -0.01,
+      "air_pollution": 1.0,
+      "alcohol_use": 0.002,
+      "smoking": -0.018,
+      "obesity_level": 0.001,
+      "treatment_cost_usd": -0.026,
+      "survival_years": 0.025,
+      "target_severity_score": 0.356
+    },
+    "alcohol_use": {
+      "age": -0.001,
+      "genetic_risk": -0.009,
+      "air_pollution": 0.002,
+      "alcohol_use": 1.0,
+      "smoking": 0.003,
+      "obesity_level": 0.011,
+      "treatment_cost_usd": -0.03,
+      "survival_years": -0.008,
+      "target_severity_score": 0.37
+    },
+    "smoking": {
+      "age": 0.03,
+      "genetic_risk": -0.006,
+      "air_pollution": -0.018,
+      "alcohol_use": 0.003,
+      "smoking": 1.0,
+      "obesity_level": -0.011,
+      "treatment_cost_usd": -0.031,
+      "survival_years": -0.013,
+      "target_severity_score": 0.483
+    },
+    "obesity_level": {
+      "age": -0.011,
+      "genetic_risk": 0.004,
+      "air_pollution": 0.001,
+      "alcohol_use": 0.011,
+      "smoking": -0.011,
+      "obesity_level": 1.0,
+      "treatment_cost_usd": -0.023,
+      "survival_years": 0.002,
+      "target_severity_score": 0.251
+    },
+    "treatment_cost_usd": {
+      "age": -0.001,
+      "genetic_risk": -0.002,
+      "air_pollution": -0.026,
+      "alcohol_use": -0.03,
+      "smoking": -0.031,
+      "obesity_level": -0.023,
+      "treatment_cost_usd": 1.0,
+      "survival_years": 0.018,
+      "target_severity_score": -0.494
+    },
+    "survival_years": {
+      "age": -0.007,
+      "genetic_risk": -0.008,
+      "air_pollution": 0.025,
+      "alcohol_use": -0.008,
+      "smoking": -0.013,
+      "obesity_level": 0.002,
+      "treatment_cost_usd": 0.018,
+      "survival_years": 1.0,
+      "target_severity_score": -0.012
+    },
+    "target_severity_score": {
+      "age": 0.031,
+      "genetic_risk": 0.471,
+      "air_pollution": 0.356,
+      "alcohol_use": 0.37,
+      "smoking": 0.483,
+      "obesity_level": 0.251,
+      "treatment_cost_usd": -0.494,
+      "survival_years": -0.012,
+      "target_severity_score": 1.0
+    }
+  },
+  "cramers_v": {},
+  "mutual_information": {
+    "genetic_risk__age": 0.0,
+    "air_pollution__age": 0.0,
+    "alcohol_use__age": 0.008526479199289838,
+    "smoking__age": 0.0,
+    "obesity_level__age": 0.007624474838449302,
+    "treatment_cost_usd__age": 0.00031717711506473734,
+    "survival_years__age": 0.0,
+    "target_severity_score__age": 0.0
+  }
+}

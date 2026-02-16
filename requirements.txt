@@ -1,0 +1,16 @@
+streamlit
+pandas
+langchain_community
+langchain_core
+langgraph
+duckdb
+scikit-learn
+requests
+joblib
+python-dotenv
+openpyxl
+fpdf
+kaleido
+openai
+ollama
+langchain-ollama

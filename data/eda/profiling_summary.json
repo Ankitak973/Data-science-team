@@ -1,0 +1,130 @@
+{
+  "shape": [
+    4881,
+    31
+  ],
+  "missing": {
+    "age": 0,
+    "genetic_risk": 0,
+    "air_pollution": 0,
+    "alcohol_use": 0,
+    "smoking": 0,
+    "obesity_level": 0,
+    "treatment_cost_usd": 0,
+    "survival_years": 0,
+    "target_severity_score": 0,
+    "gender_male": 0,
+    "gender_other": 0,
+    "country_region_brazil": 0,
+    "country_region_canada": 0,
+    "country_region_china": 0,
+    "country_region_germany": 0,
+    "country_region_india": 0,
+    "country_region_pakistan": 0,
+    "country_region_russia": 0,
+    "country_region_uk": 0,
+    "country_region_usa": 0,
+    "cancer_type_cervical": 0,
+    "cancer_type_colon": 0,
+    "cancer_type_leukemia": 0,
+    "cancer_type_liver": 0,
+    "cancer_type_lung": 0,
+    "cancer_type_prostate": 0,
+    "cancer_type_skin": 0,
+    "cancer_stage_stage i": 0,
+    "cancer_stage_stage ii": 0,
+    "cancer_stage_stage iii": 0,
+    "cancer_stage_stage iv": 0
+  },
+  "dtypes": {
+    "age": "float64",
+    "genetic_risk": "float64",
+    "air_pollution": "float64",
+    "alcohol_use": "float64",
+    "smoking": "float64",
+    "obesity_level": "float64",
+    "treatment_cost_usd": "float64",
+    "survival_years": "float64",
+    "target_severity_score": "float64",
+    "gender_male": "bool",
+    "gender_other": "bool",
+    "country_region_brazil": "bool",
+    "country_region_canada": "bool",
+    "country_region_china": "bool",
+    "country_region_germany": "bool",
+    "country_region_india": "bool",
+    "country_region_pakistan": "bool",
+    "country_region_russia": "bool",
+    "country_region_uk": "bool",
+    "country_region_usa": "bool",
+    "cancer_type_cervical": "bool",
+    "cancer_type_colon": "bool",
+    "cancer_type_leukemia": "bool",
+    "cancer_type_liver": "bool",
+    "cancer_type_lung": "bool",
+    "cancer_type_prostate": "bool",
+    "cancer_type_skin": "bool",
+    "cancer_stage_stage i": "bool",
+    "cancer_stage_stage ii": "bool",
+    "cancer_stage_stage iii": "bool",
+    "cancer_stage_stage iv": "bool"
+  },
+  "numeric_summary": {
+    "age": {
+      "mean": -5.577272805533464e-17,
+      "std": 1.0001024537680046,
+      "min": -1.7134221900941744,
+      "max": 1.6735475650935967
+    },
+    "genetic_risk": {
+      "mean": -1.1674287387602164e-16,
+      "std": 1.0001024537680074,
+      "min": -1.7433392140625863,
+      "max": 1.715518124305501
+    },
+    "air_pollution": {
+      "mean": 1.0402766299669234e-16,
+      "std": 1.000102453768004,
+      "min": -1.7427212131339975,
+      "max": 1.7424784415948444
+    },
+    "alcohol_use": {
+      "mean": -9.469081031580674e-17,
+      "std": 1.000102453768005,
+      "min": -1.7350784924349816,
+      "max": 1.7531880342885309
+    },
+    "smoking": {
+      "mean": 1.478932617519518e-16,
+      "std": 1.000102453768006,
+      "min": -1.731826090664219,
+      "max": 1.721976279356968
+    },
+    "obesity_level": {
+      "mean": 1.895180954963492e-16,
+      "std": 1.000102453768006,
+      "min": -1.7407960473545363,
+      "max": 1.7147713276851129
+    },
+    "treatment_cost_usd": {
+      "mean": -1.2435134758503853e-16,
+      "std": 1.0001024537680065,
+      "min": -1.7384308248040898,
+      "max": 1.7416885160624536
+    },
+    "survival_years": {
+      "mean": -2.6017795671327296e-16,
+      "std": 1.0001024537680072,
+      "min": -1.723688978699648,
+      "max": 1.7534810811175034
+    },
+    "target_severity_score": {
+      "mean": 5.040016754690477e-16,
+      "std": 1.0001024537680057,
+      "min": -3.1172889956330003,
+      "max": 3.4789763443569477
+    }
+  },
+  "target_variable": "cancer_stage_stage iv",
+  "problem_type": "classification"
+}

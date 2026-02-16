@@ -1,0 +1,11 @@
+{
+  "numeric_numeric": {
+    "genetic_risk__target_severity_score": 0.47145625920135514,
+    "air_pollution__target_severity_score": 0.3558686947262894,
+    "alcohol_use__target_severity_score": 0.3703040793048002,
+    "smoking__target_severity_score": 0.4831095127525191,
+    "treatment_cost_usd__target_severity_score": -0.49351875148529706
+  },
+  "categorical_numeric": {},
+  "categorical_categorical": {}
+}

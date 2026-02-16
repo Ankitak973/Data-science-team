@@ -1,0 +1,45 @@
+{
+  "dataset_summary": {
+    "features_used": 30
+  },
+  "problem_framing": {
+    "target_column": "cancer_stage_stage iv",
+    "problem_type": "classification"
+  },
+  "model_training": {
+    "best_model": "AutoML (FLAML)",
+    "baseline_score": 0.7748549118541949,
+    "best_score": 0.8189108220050129
+  },
+  "evaluation_metrics": {
+    "accuracy": 0.7993858751279427,
+    "precision": 0.8993622560449835,
+    "recall": 0.7993858751279427,
+    "f1_weighted": 0.8189108220050129,
+    "roc_auc": 0.8731920116772823
+  },
+  "sanity_check": "Model performance appears reasonable",
+  "top_features": [
+    {
+      "feature": "cancer_stage_stage ii",
+      "importance": 0.1613783691572842
+    },
+    {
+      "feature": "cancer_stage_stage iii",
+      "importance": 0.15455475946775843
+    },
+    {
+      "feature": "cancer_stage_stage i",
+      "importance": 0.15216649607642443
+    },
+    {
+      "feature": "smoking",
+      "importance": 0.0030706243602866
+    },
+    {
+      "feature": "air_pollution",
+      "importance": 0.0027294438758103112
+    }
+  ],
+  "llm_explanation": "# 0. Data Integrity & Validation\n- **Dataset Source**: The provided data table.\n- **Target Confirmation**: target_severity_score -> Predicting patient outcomes related to cancer severity (severity score).\n- **Validation Result**: \u2705 Explicit Fields.\n\n# 1. Financial Exposure\n**Strategic Value**: Not Applicable\n**Key Observation**: The correlation between Unlabeled Driver X and the Target is positive but not significant.\n\n# 2. Priority Evidence\n\n### Statistical Evidence Table\n\n| Feature Name | Exact Mean/Rate | p-value |\n| --- | --- | --- |\n| Unlabeled Driver X | 0.36 (POSITIVE) | N/A |\n\n**1. Correlation**\n- **Data Point**: The correlation between the features is 0.36, indicating a positive relationship.\n- **Strategic Recommendation**: Due to the lack of significance, further investigation and validation via A/B testing or trial are required before considering any strategic actions.\n\n# 3. Governance\n- **Disclaimer**: Correlational indicators only. No clinical/operational causation implied.\n- **Notice**: All recommendations require validation via A/B testing or trial.\n- **Source**: AVANA-Autonomous Visual Analytics & Normative Agents High-Precision Pipeline."
+}

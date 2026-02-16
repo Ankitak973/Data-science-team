@@ -1,0 +1,43 @@
+{
+  "numeric": [
+    "age",
+    "genetic_risk",
+    "air_pollution",
+    "alcohol_use",
+    "smoking",
+    "obesity_level",
+    "treatment_cost_usd",
+    "survival_years",
+    "target_severity_score"
+  ],
+  "categorical": [],
+  "datetime": [],
+  "boolean": [
+    "gender_male",
+    "gender_other",
+    "country_region_brazil",
+    "country_region_canada",
+    "country_region_china",
+    "country_region_germany",
+    "country_region_india",
+    "country_region_pakistan",
+    "country_region_russia",
+    "country_region_uk",
+    "country_region_usa",
+    "cancer_type_cervical",
+    "cancer_type_colon",
+    "cancer_type_leukemia",
+    "cancer_type_liver",
+    "cancer_type_lung",
+    "cancer_type_prostate",
+    "cancer_type_skin",
+    "cancer_stage_stage i",
+    "cancer_stage_stage ii",
+    "cancer_stage_stage iii",
+    "cancer_stage_stage iv"
+  ],
+  "text": [],
+  "id": [
+    "treatment_cost_usd"
+  ]
+}

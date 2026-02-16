@@ -1,0 +1,20 @@
+{
+  "target_column": "cancer_stage_stage iv",
+  "problem_type": "classification",
+  "domain_context": {
+    "domain": "Oncology/Healthcare",
+    "target_variable_description": "Predicting patient outcomes related to cancer severity (severity score)",
+    "entity_name": "Patient",
+    "financial_context_available": true,
+    "strategic_focus": "Clinical Outcomes",
+    "target_nature": "risk",
+    "recommended_tone": "Neutral/Professional",
+    "confidence_score": 0.9,
+    "justification": "The presence of cancer-related columns, financial data, and a clear target variable (severity score) strongly indicates that this dataset relates to oncology/healthcare.",
+    "evidence_integrity": {
+      "has_placeholders": false,
+      "placeholder_count": 0,
+      "reporting_mode": "Standard (Evidence First)"
+    }
+  }
+}

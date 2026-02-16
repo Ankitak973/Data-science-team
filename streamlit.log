@@ -1,0 +1,1159 @@
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8502
+  Network URL: http://192.168.29.129:8502
+
+  For better performance, install the Watchdog module:
+
+  $ xcode-select --install
+  $ pip install watchdog
+            
+/Users/ankitak/Documents/Data-Science-Team-v2/.venv/lib/python3.13/site-packages/flaml/__init__.py:20: UserWarning: flaml.automl is not available. Please install flaml[automl] to enable AutoML functionalities.
+  warnings.warn("flaml.automl is not available. Please install flaml[automl] to enable AutoML functionalities.")
+2026-02-13 00:06:00.621 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:06:03.269 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+INFO:Backend.agents.utils.cleaner_helper:[2026-02-13 00:06:03] Schema: No schema provided - skipping schema enforcement
+/Users/ankitak/Documents/Data-Science-Team-v2/Backend/agents/utils/cleaner_helper.py:115: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  coerced = pd.to_datetime(df[col], errors='coerce')
+/Users/ankitak/Documents/Data-Science-Team-v2/Backend/agents/utils/cleaner_helper.py:115: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  coerced = pd.to_datetime(df[col], errors='coerce')
+/Users/ankitak/Documents/Data-Science-Team-v2/Backend/agents/utils/cleaner_helper.py:115: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  coerced = pd.to_datetime(df[col], errors='coerce')
+/Users/ankitak/Documents/Data-Science-Team-v2/Backend/agents/utils/cleaner_helper.py:115: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  coerced = pd.to_datetime(df[col], errors='coerce')
+/Users/ankitak/Documents/Data-Science-Team-v2/Backend/agents/utils/cleaner_helper.py:115: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  coerced = pd.to_datetime(df[col], errors='coerce')
+INFO:Backend.agents.utils.cleaner_helper:[2026-02-13 00:06:03] Dtype Correction: Suggested dtype corrections applied for 15 columns
+INFO:Backend.agents.utils.cleaner_helper:[2026-02-13 00:06:03] Normalize Columns: Converted column names to snake_case
+INFO:Backend.agents.utils.cleaner_helper:[2026-02-13 00:06:03] Detect Outliers: Found 8 outliers in 'target_severity_score' (0.16%)
+INFO:Backend.agents.utils.cleaner_helper:[2026-02-13 00:06:03] Remove Duplicates: Removed 0 duplicate rows (0.00%)
+INFO:Backend.agents.utils.cleaner_helper:[2026-02-13 00:06:03] Standardize Text: Cleaned text in column 'patient_id'
+INFO:Backend.agents.utils.cleaner_helper:[2026-02-13 00:06:03] Standardize Text: Cleaned text in column 'gender'
+INFO:Backend.agents.utils.cleaner_helper:[2026-02-13 00:06:03] Standardize Text: Cleaned text in column 'country_region'
+INFO:Backend.agents.utils.cleaner_helper:[2026-02-13 00:06:03] Standardize Text: Cleaned text in column 'cancer_type'
+INFO:Backend.agents.utils.cleaner_helper:[2026-02-13 00:06:03] Standardize Text: Cleaned text in column 'cancer_stage'
+INFO:Backend.agents.utils.cleaner_helper:[2026-02-13 00:06:03] Leakage Detection: No obvious leakage detected
+INFO:Backend.agents.utils.cleaner_helper:[2026-02-13 00:06:03] Business Rules: No violations detected
+INFO:Backend.agents.utils.cleaner_helper:[2026-02-13 00:06:03] Metadata: Generated metadata: rows=4881, cols=32
+INFO:Backend.agents.utils.cleaner_helper:[2026-02-13 00:06:03] Save Cleaned: Saved cleaned dataset to data/processed/cleaned_data.csv
+INFO:httpx:HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpvtesxlo8.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpizci862x.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpizci862x
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpvtesxlo8/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 62B2
+INFO:kaleido._kaleido_tab:Processing Distribution_of_age.png
+INFO:kaleido._kaleido_tab:Sending big command for Distribution_of_age.png.
+INFO:kaleido._kaleido_tab:Sent big command for Distribution_of_age.png.
+INFO:kaleido.kaleido:Reloading tab 62B2 before return.
+INFO:kaleido.kaleido:Putting tab 62B2 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp44zgugx4.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp65qz9umn.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp65qz9umn
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp44zgugx4/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got ED90
+INFO:kaleido._kaleido_tab:Processing Boxplot_of_age.png
+INFO:kaleido._kaleido_tab:Sending big command for Boxplot_of_age.png.
+INFO:kaleido._kaleido_tab:Sent big command for Boxplot_of_age.png.
+INFO:kaleido.kaleido:Reloading tab ED90 before return.
+INFO:kaleido.kaleido:Putting tab ED90 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp1r2mms72.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp34u39_o6.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp34u39_o6
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp1r2mms72/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got FBD6
+INFO:kaleido._kaleido_tab:Processing Distribution_of_year.png
+INFO:kaleido._kaleido_tab:Sending big command for Distribution_of_year.png.
+INFO:kaleido._kaleido_tab:Sent big command for Distribution_of_year.png.
+INFO:kaleido.kaleido:Reloading tab FBD6 before return.
+INFO:kaleido.kaleido:Putting tab FBD6 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmph7corn1v.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp0lr_dimb.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp0lr_dimb
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmph7corn1v/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got DF50
+INFO:kaleido._kaleido_tab:Processing Boxplot_of_year.png
+INFO:kaleido._kaleido_tab:Sending big command for Boxplot_of_year.png.
+INFO:kaleido._kaleido_tab:Sent big command for Boxplot_of_year.png.
+INFO:kaleido.kaleido:Reloading tab DF50 before return.
+INFO:kaleido.kaleido:Putting tab DF50 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp2c7hqjca.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp_dhfb202.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp_dhfb202
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp2c7hqjca/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got F946
+INFO:kaleido._kaleido_tab:Processing Distribution_of_genetic_risk.png
+INFO:kaleido._kaleido_tab:Sending big command for Distribution_of_genetic_risk.png.
+INFO:kaleido._kaleido_tab:Sent big command for Distribution_of_genetic_risk.png.
+INFO:kaleido.kaleido:Reloading tab F946 before return.
+INFO:kaleido.kaleido:Putting tab F946 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp8kani4ie.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpyuzefvj3.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpyuzefvj3
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp8kani4ie/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 6B17
+INFO:kaleido._kaleido_tab:Processing Boxplot_of_genetic_risk.png
+INFO:kaleido._kaleido_tab:Sending big command for Boxplot_of_genetic_risk.png.
+INFO:kaleido._kaleido_tab:Sent big command for Boxplot_of_genetic_risk.png.
+INFO:kaleido.kaleido:Reloading tab 6B17 before return.
+INFO:kaleido.kaleido:Putting tab 6B17 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpap3yqwqx.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp5cr9he9_.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp5cr9he9_
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpap3yqwqx/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got A06A
+INFO:kaleido._kaleido_tab:Processing Distribution_of_air_pollution.png
+INFO:kaleido._kaleido_tab:Sending big command for Distribution_of_air_pollution.png.
+INFO:kaleido._kaleido_tab:Sent big command for Distribution_of_air_pollution.png.
+INFO:kaleido.kaleido:Reloading tab A06A before return.
+INFO:kaleido.kaleido:Putting tab A06A back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp5bwpm433.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpau8wbyir.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpau8wbyir
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp5bwpm433/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 8B25
+INFO:kaleido._kaleido_tab:Processing Boxplot_of_air_pollution.png
+INFO:kaleido._kaleido_tab:Sending big command for Boxplot_of_air_pollution.png.
+INFO:kaleido._kaleido_tab:Sent big command for Boxplot_of_air_pollution.png.
+INFO:kaleido.kaleido:Reloading tab 8B25 before return.
+INFO:kaleido.kaleido:Putting tab 8B25 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpw8s7ufsx.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpgt3lt9ml.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpgt3lt9ml
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpw8s7ufsx/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 748C
+INFO:kaleido._kaleido_tab:Processing Distribution_of_alcohol_use.png
+INFO:kaleido._kaleido_tab:Sending big command for Distribution_of_alcohol_use.png.
+INFO:kaleido._kaleido_tab:Sent big command for Distribution_of_alcohol_use.png.
+INFO:kaleido.kaleido:Reloading tab 748C before return.
+INFO:kaleido.kaleido:Putting tab 748C back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpa3uyl7ws.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmphenvh32u.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmphenvh32u
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpa3uyl7ws/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 884D
+INFO:kaleido._kaleido_tab:Processing Boxplot_of_alcohol_use.png
+INFO:kaleido._kaleido_tab:Sending big command for Boxplot_of_alcohol_use.png.
+INFO:kaleido._kaleido_tab:Sent big command for Boxplot_of_alcohol_use.png.
+INFO:kaleido.kaleido:Reloading tab 884D before return.
+INFO:kaleido.kaleido:Putting tab 884D back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmptotqlaj5.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpteslpyf6.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpteslpyf6
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmptotqlaj5/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 18AA
+INFO:kaleido._kaleido_tab:Processing Distribution_of_smoking.png
+INFO:kaleido._kaleido_tab:Sending big command for Distribution_of_smoking.png.
+INFO:kaleido._kaleido_tab:Sent big command for Distribution_of_smoking.png.
+INFO:kaleido.kaleido:Reloading tab 18AA before return.
+INFO:kaleido.kaleido:Putting tab 18AA back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpqg5d3cc1.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp9nkodjvn.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp9nkodjvn
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpqg5d3cc1/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got D119
+INFO:kaleido._kaleido_tab:Processing Boxplot_of_smoking.png
+INFO:kaleido._kaleido_tab:Sending big command for Boxplot_of_smoking.png.
+INFO:kaleido._kaleido_tab:Sent big command for Boxplot_of_smoking.png.
+INFO:kaleido.kaleido:Reloading tab D119 before return.
+INFO:kaleido.kaleido:Putting tab D119 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp0r636aa6.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpf22z_lzg.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpf22z_lzg
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp0r636aa6/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 6897
+INFO:kaleido._kaleido_tab:Processing Distribution_of_obesity_level.png
+INFO:kaleido._kaleido_tab:Sending big command for Distribution_of_obesity_level.png.
+INFO:kaleido._kaleido_tab:Sent big command for Distribution_of_obesity_level.png.
+INFO:kaleido.kaleido:Reloading tab 6897 before return.
+INFO:kaleido.kaleido:Putting tab 6897 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpnc7qidzh.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp6o3hmm9_.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp6o3hmm9_
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpnc7qidzh/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 9FB3
+INFO:kaleido._kaleido_tab:Processing Boxplot_of_obesity_level.png
+INFO:kaleido._kaleido_tab:Sending big command for Boxplot_of_obesity_level.png.
+INFO:kaleido._kaleido_tab:Sent big command for Boxplot_of_obesity_level.png.
+INFO:kaleido.kaleido:Reloading tab 9FB3 before return.
+INFO:kaleido.kaleido:Putting tab 9FB3 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpzehcxvae.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp411wud__.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp411wud__
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpzehcxvae/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got E74D
+INFO:kaleido._kaleido_tab:Processing Distribution_of_treatment_cost_usd.png
+INFO:kaleido._kaleido_tab:Sending big command for Distribution_of_treatment_cost_usd.png.
+INFO:kaleido._kaleido_tab:Sent big command for Distribution_of_treatment_cost_usd.png.
+INFO:kaleido.kaleido:Reloading tab E74D before return.
+INFO:kaleido.kaleido:Putting tab E74D back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp06owh9rb.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpgb_3mej5.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpgb_3mej5
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp06owh9rb/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got F3B1
+INFO:kaleido._kaleido_tab:Processing Boxplot_of_treatment_cost_usd.png
+INFO:kaleido._kaleido_tab:Sending big command for Boxplot_of_treatment_cost_usd.png.
+INFO:kaleido._kaleido_tab:Sent big command for Boxplot_of_treatment_cost_usd.png.
+INFO:kaleido.kaleido:Reloading tab F3B1 before return.
+INFO:kaleido.kaleido:Putting tab F3B1 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpq6gqf4ru.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpix5t45pd.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpix5t45pd
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpq6gqf4ru/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got E168
+INFO:kaleido._kaleido_tab:Processing Distribution_of_survival_years.png
+INFO:kaleido._kaleido_tab:Sending big command for Distribution_of_survival_years.png.
+INFO:kaleido._kaleido_tab:Sent big command for Distribution_of_survival_years.png.
+INFO:kaleido.kaleido:Reloading tab E168 before return.
+INFO:kaleido.kaleido:Putting tab E168 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp76hw6n1w.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpqo5l5lop.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpqo5l5lop
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp76hw6n1w/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got C2D6
+INFO:kaleido._kaleido_tab:Processing Boxplot_of_survival_years.png
+INFO:kaleido._kaleido_tab:Sending big command for Boxplot_of_survival_years.png.
+INFO:kaleido._kaleido_tab:Sent big command for Boxplot_of_survival_years.png.
+INFO:kaleido.kaleido:Reloading tab C2D6 before return.
+INFO:kaleido.kaleido:Putting tab C2D6 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpo1xpchhl.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpundblvye.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpundblvye
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpo1xpchhl/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 8D12
+INFO:kaleido._kaleido_tab:Processing Distribution_of_target_severity_score.png
+INFO:kaleido._kaleido_tab:Sending big command for Distribution_of_target_severity_score.png.
+INFO:kaleido._kaleido_tab:Sent big command for Distribution_of_target_severity_score.png.
+INFO:kaleido.kaleido:Reloading tab 8D12 before return.
+INFO:kaleido.kaleido:Putting tab 8D12 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpdrz47bhs.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpi9gz1d9h.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpi9gz1d9h
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpdrz47bhs/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 8676
+INFO:kaleido._kaleido_tab:Processing Boxplot_of_target_severity_score.png
+INFO:kaleido._kaleido_tab:Sending big command for Boxplot_of_target_severity_score.png.
+INFO:kaleido._kaleido_tab:Sent big command for Boxplot_of_target_severity_score.png.
+INFO:kaleido.kaleido:Reloading tab 8676 before return.
+INFO:kaleido.kaleido:Putting tab 8676 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpptmvuqvs.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmprace9nh1.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmprace9nh1
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpptmvuqvs/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 773C
+INFO:kaleido._kaleido_tab:Processing age_vs_year.png
+INFO:kaleido._kaleido_tab:Sending big command for age_vs_year.png.
+INFO:kaleido._kaleido_tab:Sent big command for age_vs_year.png.
+INFO:kaleido.kaleido:Reloading tab 773C before return.
+INFO:kaleido.kaleido:Putting tab 773C back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp4lwjss7h.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp8re6swx4.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp8re6swx4
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp4lwjss7h/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 5931
+INFO:kaleido._kaleido_tab:Processing age_vs_genetic_risk.png
+INFO:kaleido._kaleido_tab:Sending big command for age_vs_genetic_risk.png.
+INFO:kaleido._kaleido_tab:Sent big command for age_vs_genetic_risk.png.
+INFO:kaleido.kaleido:Reloading tab 5931 before return.
+INFO:kaleido.kaleido:Putting tab 5931 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmptzkth9sa.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp4r0y_mxi.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp4r0y_mxi
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmptzkth9sa/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got F7AE
+INFO:kaleido._kaleido_tab:Processing age_vs_air_pollution.png
+INFO:kaleido._kaleido_tab:Sending big command for age_vs_air_pollution.png.
+INFO:kaleido._kaleido_tab:Sent big command for age_vs_air_pollution.png.
+INFO:kaleido.kaleido:Reloading tab F7AE before return.
+INFO:kaleido.kaleido:Putting tab F7AE back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpuhul8sam.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpxn_qopi1.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpxn_qopi1
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpuhul8sam/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got D948
+INFO:kaleido._kaleido_tab:Processing age_vs_alcohol_use.png
+INFO:kaleido._kaleido_tab:Sending big command for age_vs_alcohol_use.png.
+INFO:kaleido._kaleido_tab:Sent big command for age_vs_alcohol_use.png.
+INFO:kaleido.kaleido:Reloading tab D948 before return.
+INFO:kaleido.kaleido:Putting tab D948 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp_okk8psi.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpholu454x.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpholu454x
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp_okk8psi/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got AA42
+INFO:kaleido._kaleido_tab:Processing age_vs_smoking.png
+INFO:kaleido._kaleido_tab:Sending big command for age_vs_smoking.png.
+INFO:kaleido._kaleido_tab:Sent big command for age_vs_smoking.png.
+INFO:kaleido.kaleido:Reloading tab AA42 before return.
+INFO:kaleido.kaleido:Putting tab AA42 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp9ksfetwh.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpzk3zirl7.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpzk3zirl7
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp9ksfetwh/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 3685
+INFO:kaleido._kaleido_tab:Processing age_vs_obesity_level.png
+INFO:kaleido._kaleido_tab:Sending big command for age_vs_obesity_level.png.
+INFO:kaleido._kaleido_tab:Sent big command for age_vs_obesity_level.png.
+INFO:kaleido.kaleido:Reloading tab 3685 before return.
+INFO:kaleido.kaleido:Putting tab 3685 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmps41hic7g.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpznrodhsi.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpznrodhsi
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmps41hic7g/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 7B61
+INFO:kaleido._kaleido_tab:Processing age_vs_treatment_cost_usd.png
+INFO:kaleido._kaleido_tab:Sending big command for age_vs_treatment_cost_usd.png.
+INFO:kaleido._kaleido_tab:Sent big command for age_vs_treatment_cost_usd.png.
+INFO:kaleido.kaleido:Reloading tab 7B61 before return.
+INFO:kaleido.kaleido:Putting tab 7B61 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmph_vo7y8d.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp9cspphtn.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp9cspphtn
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmph_vo7y8d/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 014E
+INFO:kaleido._kaleido_tab:Processing age_vs_survival_years.png
+INFO:kaleido._kaleido_tab:Sending big command for age_vs_survival_years.png.
+INFO:kaleido._kaleido_tab:Sent big command for age_vs_survival_years.png.
+INFO:kaleido.kaleido:Reloading tab 014E before return.
+INFO:kaleido.kaleido:Putting tab 014E back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpv6xpeh67.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp50krh5k9.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmp50krh5k9
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpv6xpeh67/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 2342
+INFO:kaleido._kaleido_tab:Processing age_vs_target_severity_score.png
+INFO:kaleido._kaleido_tab:Sending big command for age_vs_target_severity_score.png.
+INFO:kaleido._kaleido_tab:Sent big command for age_vs_target_severity_score.png.
+INFO:kaleido.kaleido:Reloading tab 2342 before return.
+INFO:kaleido.kaleido:Putting tab 2342 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpr1wct37y.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpra4zwgcl.
+INFO:choreographer.browsers.chromium:Temporary directory at: /var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpra4zwgcl
+INFO:kaleido.kaleido:Conforming 1 to file:///var/folders/9g/5kp2_2f96pb2sx7t_b63swwc0000gn/T/tmpr1wct37y/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got EB6F
+INFO:kaleido._kaleido_tab:Processing year_vs_genetic_risk.png
+INFO:kaleido._kaleido_tab:Sending big command for year_vs_genetic_risk.png.
+INFO:kaleido._kaleido_tab:Sent big command for year_vs_genetic_risk.png.
+INFO:kaleido.kaleido:Reloading tab EB6F before return.
+INFO:kaleido.kaleido:Putting tab EB6F back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:httpx:HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-13 00:10:58.372 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.393 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.394 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.394 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.394 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.395 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.395 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.395 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.395 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.396 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.396 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.396 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.397 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.397 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.397 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.397 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.398 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.398 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.398 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.399 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.399 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.400 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.400 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.401 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.401 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.401 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.402 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.402 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.403 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-13 00:10:58.403 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.

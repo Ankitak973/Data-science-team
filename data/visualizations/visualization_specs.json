@@ -1,0 +1,69 @@
+{
+  "plots": [
+    {
+      "type": "histogram",
+      "column": "age",
+      "title": "Distribution of age"
+    },
+    {
+      "type": "box",
+      "column": "age",
+      "title": "Boxplot of age"
+    },
+    {
+      "type": "histogram",
+      "column": "genetic_risk",
+      "title": "Distribution of genetic_risk"
+    },
+    {
+      "type": "box",
+      "column": "genetic_risk",
+      "title": "Boxplot of genetic_risk"
+    },
+    {
+      "type": "histogram",
+      "column": "air_pollution",
+      "title": "Distribution of air_pollution"
+    },
+    {
+      "type": "box",
+      "column": "air_pollution",
+      "title": "Boxplot of air_pollution"
+    },
+    {
+      "type": "histogram",
+      "column": "alcohol_use",
+      "title": "Distribution of alcohol_use"
+    },
+    {
+      "type": "box",
+      "column": "alcohol_use",
+      "title": "Boxplot of alcohol_use"
+    },
+    {
+      "type": "histogram",
+      "column": "smoking",
+      "title": "Distribution of smoking"
+    },
+    {
+      "type": "box",
+      "column": "smoking",
+      "title": "Boxplot of smoking"
+    },
+    {
+      "type": "histogram",
+      "column": "obesity_level",
+      "title": "Distribution of obesity_level"
+    },
+    {
+      "type": "box",
+      "column": "obesity_level",
+      "title": "Boxplot of obesity_level"
+    },
+    {
+      "type": "histogram",
+      "column": "treatment_cost_usd",
+      "title": "Distribution of treatment_cost_usd"
+    }
+  ]
+}
